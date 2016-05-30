@@ -28,6 +28,7 @@ var drops = document.getElementsByClassName("header");
 //var drops = document.querySelector(".header");
 var paragraphShow = document.querySelector(".paragraph");
 var showSmall = document.querySelector(".hidesmall");
+
 //drops.addEventListener("click", dropFunction);
 // drops.addEventListener("click", myFunction);
 // function myFunction (){
@@ -37,6 +38,8 @@ var showSmall = document.querySelector(".hidesmall");
   for (var i = 0; i < drops.length; i++){
     drops[i].addEventListener("click", function(){
     this.nextElementSibling.classList.toggle("show");
+
+
     //document.getElementById("paragraph").nextElementSibling.classList.toggle("smallList");
     //showSmall.className="smallList";
   });
