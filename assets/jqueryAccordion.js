@@ -19,7 +19,7 @@ var drops = $(".header");
 $.each(drops, function(i, drops){
 
   $(drops).click(function(){
-    $(drops).next().toggle("display");
+    $(drops).next().toggle();
     console.log("hello");
   });
 });
