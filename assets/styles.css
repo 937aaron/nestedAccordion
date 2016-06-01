@@ -59,7 +59,7 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   height: 2500px;
   width: 1000px;
   /*background-color: black;*/

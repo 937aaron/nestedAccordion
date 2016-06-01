@@ -38,6 +38,7 @@ var showSmall = document.querySelector(".hidesmall");
   for (var i = 0; i < drops.length; i++){
     drops[i].addEventListener("click", function(){
     this.nextElementSibling.classList.toggle("show");
+    //this.previousElementSibling.classList.toggle("hide");
 
 
     //document.getElementById("paragraph").nextElementSibling.classList.toggle("smallList");
